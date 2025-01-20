@@ -1,0 +1,97 @@
+/* Custom styles for the Skin Disease Detection website */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7fafc; /* Tailwind's bg-gray-100 */
+}
+
+header {
+    background-color: #2563eb; /* Tailwind's bg-blue-600 */
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* Tailwind's rounded-lg */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.bg-blue-600 {
+    background-color: #2563eb; /* Tailwind's blue-600 */
+}
+
+.bg-blue-700:hover {
+    background-color: #1d4ed8; /* Tailwind's blue-700 */
+}
+
+.text-gray-700 {
+    color: #4a5568; /* Tailwind's text-gray-700 */
+}
+
+.fixed {
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-lg {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+}
+
+.text-3xl {
+    font-size: 1.875rem; /* Tailwind's text-3xl */
+}
+
+.p-4 {
+    padding: 1rem; /* Tailwind's p-4 */
+}
+
+.p-2 {
+    padding: 0.5rem; /* Tailwind's p-2 */
+}
+
+.rounded-full {
+    border-radius: 9999px; /* Tailwind's rounded-full */
+}
+
+.w-full {
+    width: 100%;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.redirect-button{
+    border: 2px solid blue;
+    padding: 10px;
+}
